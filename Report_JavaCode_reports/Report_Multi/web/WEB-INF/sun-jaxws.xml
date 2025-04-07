@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints
+  xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+  version="2.0">
+  <endpoint
+      name="HelloWorld"
+      implementation="WebServices.HelloWorldImpl"
+      url-pattern="/hello"/>
+    <endpoint
+      name="FarmerMarket"
+      implementation="WebServices.FarmerMarketImpl"
+      url-pattern="/FarmetMarket"/>
+</endpoints>
